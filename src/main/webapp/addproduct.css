@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+
+#container {
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    font-family: 'Barlow', sans-serif;
+}
+
+/* Apply styles to form elements */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="file"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Barlow', sans-serif; /* Apply the Barlow font */
+}
+.availability {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.availability span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.availability input[type="radio"] {
+    margin-right: 5px; /* Add a small margin between radio buttons and labels */
+}
+
+
+.availability {
+    margin-bottom: 15px;
+}
+
+.availability span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #1A181E;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-left: 48%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Barlow', sans-serif; /* Apply the Barlow font */
+}
+
+input[type="submit"]:hover {
+    background-color: #ff6600;
+}

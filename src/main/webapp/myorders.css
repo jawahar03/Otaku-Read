@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+#orders {
+    margin: 20px;
+	font-family: 'Barlow', sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #1A181E; /* Header background color */
+    color: white;
+}
+
+thead th {
+    padding: 10px;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color */
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+tbody tr:last-child td {
+    border-bottom: none; /* Remove border on the last row */
+}
+
+th, td {
+    text-align: center;
+}
+

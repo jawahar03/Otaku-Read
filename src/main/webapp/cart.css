@@ -1,0 +1,112 @@
+@charset "ISO-8859-1";
+
+*{
+	 margin: 0px;
+	 padding: 0px;
+	  font-family: 'Barlow', sans-serif;
+}
+#nav_modules{
+	background-color: #fff;
+	  display: flex; 
+ 	 justify-content: space-around; 
+ 	 padding: 10px; 	
+ 	 font-family: 'Barlow', sans-serif;
+ 	  position: sticky;
+    top: 0;
+    display: flex;
+    z-index: 100;
+}
+
+#nav_modules div {
+  text-align: center; /* Center-align the text within each navigation item */
+  padding: 5px; /* Add some spacing around each item */
+}
+#nav_modules a {
+  text-decoration: none; /* Remove underlines from links */
+  color: #1A181E; /* Text color for links */
+  font-weight: bold; /* Bold text for links */
+}
+#nav_modules a:hover {
+ text-decoration: underline; 
+    color: #1A181E; 
+}
+
+.content-wrapper {
+    display: flex;
+    background-color: #F5f5f5;
+}
+
+.left-column {
+    flex: 1;
+    display: flex;
+    align-items: center; /* Vertically center the image */
+}
+
+.right-column {
+    flex: 2; 
+}
+#manga_details{
+	margin-top: 25px;
+	padding: 20px;
+	height: 30vh;
+}
+
+#Cover_img img {
+    width: 250px; /* Ensure the image fits within its container */
+    height: 280px; /* Ensure the image height scales proportionally */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.action-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px; /* Add padding to create a button-like shape */
+    background-color: #1A181E; /* Set the background color */
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underlines */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners */
+    font-weight: bold;
+    transition: background-color 0.3s; /* Add a smooth color transition */
+}
+
+.action-button:hover {
+    background-color: #000; /* Change background color on hover */
+}
+#name{
+	font-size: 48px;
+}
+#author{
+	font-size: 29px;
+	margin-top: 10px;
+}
+
+#price{
+	font-size: 20px;
+	
+}
+#quantity{
+	font-size: 18px;
+}
+#total{
+	background-color: #1A181E;
+	color: #F5f5f5;
+}
+#remove{
+	margin-top: 15px;
+	
+}
+a{
+	text-decoration: none;
+	color: #1A181E;
+}
+#buy{
+	width: 97.3vw;
+	background-color: #1A181E;
+	height: 30px;
+	text-align: center;
+	color: #F5f5f5;
+	padding: 10px;
+	font-size: 20px;
+}
+
