@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5; /* Set your background color here */
+        }
+        
+        #order {
+            text-align: center;
+            background-color: #1A181E; /* Main color */
+            color: white;
+            padding: 20px;
+        }
+        
+        #details {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .column {
+            flex: 1;
+            padding: 10px;
+        }
+
+        h2, h3, h1 {
+            margin: 0;
+        }
+
+        hr {
+            border: 1px solid #ccc;
+        }
+
+        #ship {
+            font-size: 1.2em;
+        }
+
+        #items, #total, #delivery, #discount , #order-total {
+            font-size: 1.1em;
+            color: #1A181E; /* Main color */
+            text-align: center; /* Center-align text */
+        }
+
+        #delivery-charge {
+            font-size: 1.1em;
+            color: #ff6600; /* Orange color for delivery charge */
+            text-align: center; /* Center-align text */
+        }
+
+        #total-del, #dis-amount, #final-total {
+            font-size: 1.2em;
+             /* Highlight color */
+            text-align: center; /* Center-align text */
+        }
+        #final-total{
+			color: #ff6600;
+		}
+
+        #place-order {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #place-order a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #1A181E; /* Main color */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+    		cursor: pointer;
+            }
+
+        #place-order a:hover {
+            background-color: #ff6600; /* Hover color */
+        }
+       #ship-section {
+		  background-color: white;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: #1a181e;
+}
+
+#ship {
+    font-size: 1.2em;
+    margin: 0;
+}
+	
+

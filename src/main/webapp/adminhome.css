@@ -1,0 +1,77 @@
+@charset "ISO-8859-1";
+*{
+	 margin: 0px;
+	 padding: 0px;
+	  font-family: 'Barlow', sans-serif;
+}
+#nav_modules{
+	background-color: #fff;
+	  display: flex; 
+ 	 justify-content: space-around; 
+ 	 padding: 10px; 	
+ 	 font-family: 'Barlow', sans-serif;
+ 	  position: sticky;
+    top: 0;
+    display: flex;
+    z-index: 100;
+}
+
+#nav_modules div {
+  text-align: center; /* Center-align the text within each navigation item */
+  padding: 5px; /* Add some spacing around each item */
+}
+#nav_modules a {
+  text-decoration: none; /* Remove underlines from links */
+  color: #1A181E; /* Text color for links */
+  font-weight: bold; /* Bold text for links */
+}
+#nav_modules a:hover {
+ text-decoration: underline; 
+    color: #1A181E; 
+}
+#display_products {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0; /* Remove any spacing between table cells */
+}
+
+thead {
+    background-color: #1A181E;
+    color: white;
+    text-align: center; /* Center-align text in all table header cells */
+}
+
+thead th {
+    padding: 10px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center; /* Center-align text in all table data cells */
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+th, td {
+    vertical-align: middle; /* Vertically align content in cells */
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+a{
+	text-decoration: none;
+	color: #1A181E;
+}

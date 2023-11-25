@@ -1,0 +1,89 @@
+@charset "ISO-8859-1";
+/* Reset styles and basic layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+   
+    padding: 10px;
+
+}
+.background-image {
+    background-image: url('panelcover.jpg'); /* Replace 'panelcover.jpg' with the actual image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.user-details {
+    max-width: 900px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
+    
+}
+.user-details{
+	display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; /* Four rows with equal height */
+  grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+  grid-gap: 10px;
+}
+.item {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+#mail{
+	grid-column: 1/3;
+}
+#add{
+	grid-column: 1 / 3;
+}
+
+.user-details h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.user-details h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+#but{
+	grid-column: 1/3;
+	background-color: #f0f0f0;
+}
+.user-details a {
+    text-decoration: none;
+    color: #fff; /* Link color */
+	background-color:#1a181e ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.user-details a:hover {
+    background-color: black;
+}

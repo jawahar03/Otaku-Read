@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+*{
+	font-family: 'Barlow', sans-serif;
+}
+#nav_modules{
+	background-color: #fff;
+	  display: flex; 
+ 	 justify-content: space-around; 
+ 	 padding: 10px; 	
+ 	 
+ 	  position: sticky;
+    top: 0;
+    display: flex;
+    z-index: 100;
+}
+
+#nav_modules div {
+  text-align: center; /* Center-align the text within each navigation item */
+  padding: 5px; /* Add some spacing around each item */
+}
+#nav_modules a {
+  text-decoration: none; /* Remove underlines from links */
+  color: #1A181E; /* Text color for links */
+  font-weight: bold; /* Bold text for links */
+}
+#nav_modules a:hover {
+ text-decoration: underline; 
+    color: #1A181E; 
+}
+
+/* Style the table */
+#orders table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#orders th,
+#orders td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+#orders th {
+    background-color: #1A181E;
+    color: white;
+}
+
+#orders tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+/* Style links in the table */
+#orders a {
+    text-decoration: none;
+    color: #1A181E;
+    background-color: #ff6600;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#orders a:hover {
+    background-color: #1A181E;
+    color: white;
+}
